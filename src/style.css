@@ -1,1 +1,9 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    color : rgb(69, 93, 124);
+}
+
+div #mesh{
+    border: 10;
+    border-radius: 5;
+    border-color: black;
+}

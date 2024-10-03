@@ -1,11 +1,11 @@
 /* eslint-disable */
-import "bootstrap";
-import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+const meshDiv = document.createElement("div");
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+function MeshDiv() {
+  for (i = 0; i < 100; i++) {
+    document.body.appendChild(meshDiv);
+  }
+}
+
+MeshDiv();
